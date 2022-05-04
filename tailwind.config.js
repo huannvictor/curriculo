@@ -1,9 +1,14 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}"
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          300: "#CADCDD",
+          500: "#89BDC0",
+        }
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
-}
+};

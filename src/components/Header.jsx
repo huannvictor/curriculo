@@ -46,7 +46,7 @@ export function Header() {
         <h2 className=" text-lg text-brand-500">DESENVOLVEDOR WEB FRONT-END</h2>
         <div className="flex items-center gap-6 w-[435px] text-xs">
           <p className="text-justify">
-            Tenho 31 anos, resido em João Pessoa, estado da Paraíba, disponível
+            Tenho 31 anos, resido em João Pessoa, estado da Paraíba. Estou disponível
             para vagas remotas ou presenciais, também estou aberto a propostas
             para mudar de cidade.
           </p>

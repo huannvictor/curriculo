@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Baloo 2", sans-serif;
-  @apply 
-    bg-stone-200
+  @apply bg-stone-200
 }

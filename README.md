@@ -4,3 +4,10 @@ Nesse projeto meu objetivo é criar um Portfólio/Currículo usando as ferrament
 - Tailwind
 - Noções de UI
 - Design desenvolvido no Figma
+
+<!-- 
+* A fazer: 
+  *  FORMAÇÃO ACADÊMICA E ÚLTIMOS CURSOS DA ÁREA
+  todo:  dividir em duas colunas
+  todo:  estudar grid no tailwind
+-->

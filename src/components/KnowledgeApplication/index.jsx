@@ -7,7 +7,7 @@ export function KnowledgeApplication(){
       <ul className="content">
         {
           knowledgeList.map((item) => {
-            return (<li className="list-disc text-xs">{item}</li>)
+            return (<li className="list-disc">{item}</li>)
           })
         }
       </ul>

@@ -10,7 +10,7 @@ export function LastXP() {
             return(
               <div key={key} className="text-sm flex flex-col mb-2">
                 <h2 className="text-brand-500 font-bold">{content.position}</h2>
-                <strong className="text-xs">{
+                <strong className="">{
                   !content.company 
                     ? content.period 
                     : `${content.company} - ${content.period}`

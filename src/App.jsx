@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { KnowledgeApplication } from "./components/KnowledgeApplication";
 import { LastXP } from "./components/LastXP";
 import { PersonalMotivation } from "./components/PersonalMotivation";
+import { Studies } from "./components/Studies";
 
 export function App() {
   return (
@@ -13,7 +14,7 @@ export function App() {
           <KnowledgeApplication /> 
           <PersonalMotivation />
         </div>
-        <LastXP />
+          <Studies/>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { studies } from "./content"
+import iconLink from "../../assets/externalLink.svg"
 
 export function Studies() {
   return(
@@ -12,11 +13,14 @@ export function Studies() {
                 <h2 className="text-brand-500 font-bold">{content.title}</h2>
                 <div className="studyContainer">
                   <strong className="">
-                    {content.entity} - {content.place} 
-                    <span className="text-[11px] hover:underline hover:underline-offset-4 hover:decoration-brand-500">
+                    {content.entity}
+                    <span className="hover:underline hover:underline-offset-4 hover:decoration-brand-500">
                       {
                         content.hasLink
-                          ? <a className="linkButton text-brand-500 font-bold" href={content.link}> confira aqui</a>
+                          ? <>
+                              <a href={content.link}> {content.place} </a>
+                              <img className="inline w-[9px]" src={iconLink} alt="ícone de link externo" />
+                            </>
                           : null
                       }
                     </span>

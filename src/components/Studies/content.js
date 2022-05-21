@@ -10,6 +10,7 @@ export const studies = {
     title:"BACHAREL EM ADMINISTRAÇÃO DE EMPRESAS",
     entity:"UNIESP",
     place:"CABEDELO/PB",
+    hasLink: false,
     link:"",
     subject:"(Incompleto) aguardando defesa do TCC"
   },
@@ -17,6 +18,7 @@ export const studies = {
     title:"PROGRAMADOR FULLSTACK JAVASCRIPT",
     entity:"ONEBITCODE",
     place:"onebitcode.com",
+    hasLink: true,
     link:"https://programador.onebitcode.com",
     subject:[
       "Sass + Bootstrap",
@@ -30,6 +32,7 @@ export const studies = {
   discoverRocketseat:{
     title:"TRILHA DISCOVER ROCETSEAT",
     entity:"ROCKETSEAT",
+    hasLink: true,
     place:"rocketseat.com",
     link:"https://www.rocketseat.com.br/discover",
     subject:[
@@ -48,6 +51,7 @@ export const studies = {
     title:"LEARN REACT",
     entity:"SCRIMBA",
     place:"scrimba.com",
+    hasLink: true,
     link:"https://scrimba.com/learn/learnreact",
     subject:[
       "ES6 classes",

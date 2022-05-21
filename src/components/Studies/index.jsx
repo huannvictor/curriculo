@@ -18,7 +18,7 @@ export function Studies() {
                       {
                         content.hasLink
                           ? <>
-                              <a href={content.link}> {content.place} </a>
+                              <a href={content.link} rel="noreferrer" target="_blank"> {content.place} </a>
                               <img className="inline w-[9px]" src={iconLink} alt="ícone de link externo" />
                             </>
                           : null

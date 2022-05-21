@@ -3,24 +3,24 @@ import { links } from "./links";
 
 export function Header() {
   return (
-    <header className="flex items-center justify-center gap-5">
+    <header className="flex flex-col md:flex-row items-center justify-center gap-5 text-center">
       <img
         src={avatarImg}
         alt="imagem do perfil"
-        className="shadow-md rounded-full bg-brand-500"
+        className="shadow-md rounded-full bg-brand-500 sm:w-48"
       />
-      <div className=" flex flex-col justify-center items-center gap-1 w-[565px] bg-stone-100 rounded-xl py-7 px-9 shadow-md">
-        <h1 className=" text-2xl font-bold text-brand-500">
+      <div className=" flex flex-col justify-center items-center gap-1 max-w-xl bg-stone-100 rounded-xl py-7 px-9 shadow-md">
+        <h1 className="text-lg sm:text-2xl font-bold text-brand-500">
           Huann Victor Brito de Almeida
         </h1>
-        <h2 className=" text-lg text-brand-500">DESENVOLVEDOR WEB FRONT-END</h2>
-        <div className="flex items-center gap-6 text-xs">
+        <h2 className="text-base sm:text-lg text-brand-500">DESENVOLVEDOR WEB FRONT-END</h2>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-xs">
           <p className="text-justify">
             Tenho 31 anos, resido em João Pessoa, estado da Paraíba. Estou disponível
             para vagas remotas ou presenciais, também estou aberto a propostas
             para mudar de cidade.
           </p>
-          <ul className="flex flex-col gap-0.5">
+          <ul className="flex float-left flex-col gap-0.5">
             {
               Object.entries(links).map(([key, item]) => {
                 return(

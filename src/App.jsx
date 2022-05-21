@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { KnowledgeApplication } from "./components/KnowledgeApplication";
 import { LastXP } from "./components/LastXP";
 
 export function App() {
@@ -8,7 +9,7 @@ export function App() {
       <div className="flex gap-3 grid-cols-2">
         <div className="left flex flex-col gap-3 ">
           <LastXP /> 
-          <LastXP /> 
+          <KnowledgeApplication /> 
         </div>
         <LastXP />
       </div>

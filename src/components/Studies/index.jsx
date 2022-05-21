@@ -10,15 +10,17 @@ export function Studies() {
             return(
               <div key={key} className="text-sm flex flex-col mb-2">
                 <h2 className="text-brand-500 font-bold">{content.title}</h2>
-                <div className="studyContainer relative">
-                  <strong className="">{content.entity} - {content.place}</strong>
-                  <span className="float-left text-[11px] hover:underline hover:underline-offset-4 hover:decoration-brand-500">
-                    {
-                      content.hasLink
-                        ? <a className="linkButton absolute right-0 text-brand-500 font-bold" href={content.link}>confira aqui</a>
-                        : null
-                    }
-                  </span>
+                <div className="studyContainer">
+                  <strong className="">
+                    {content.entity} - {content.place} 
+                    <span className="text-[11px] hover:underline hover:underline-offset-4 hover:decoration-brand-500">
+                      {
+                        content.hasLink
+                          ? <a className="linkButton text-brand-500 font-bold" href={content.link}> confira aqui</a>
+                          : null
+                      }
+                    </span>
+                  </strong>
                   <p className="text-xs mb-2">
                   {
                     typeof content.subject === "string"

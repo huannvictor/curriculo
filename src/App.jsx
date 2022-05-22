@@ -10,14 +10,14 @@ export function App() {
     <div className="App flex flex-col items-center justify-center gap-4 p-4">
       <Header className="justify-center sm:max-w-sm" />
       <div className="flex flex-col gap-3 sm:grid-cols-2 sm:flex-row">
-        <div className="leftContent flex flex-col gap-3 text-xs sm:max-w-sm">
-          <LastXP /> 
-          <KnowledgeApplication /> 
+        <div className="left flex flex-col gap-3 text-xs sm:max-w-sm">
           <PersonalMotivation />
-        </div>
-        <div className="rightContent flex flex-col gap-3 text-xs sm:max-w-sm">
-          <Studies />
+          <KnowledgeApplication /> 
           <BestRepos />
+        </div>
+        <div className="left flex flex-col gap-3 text-xs sm:max-w-sm">
+          <LastXP /> 
+          <Studies/>
         </div>
       </div>
     </div>

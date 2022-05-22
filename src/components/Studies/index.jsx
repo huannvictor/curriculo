@@ -25,19 +25,19 @@ export function Studies() {
                       }
                     </span>
                   </strong>
-                  <p className="text-xs mb-2">
+                  <div className="text-xs mb-2">
                   {
                     typeof content.subject === "string"
                       ? <p>{content.subject}</p>
                       : <p>{
                         content.subject.map((item) => {
                           return(
-                            <li>{item}</li>
+                            <li key={Math.random()} >{item}</li>
                           )
                         })
                       }</p>
                   }
-                  </p>
+                  </div>
                 </div>
               </div>
             )

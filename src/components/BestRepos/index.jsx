@@ -23,7 +23,7 @@ export function BestRepos() {
                     </a>
                     <img className="inline w-[9px]" src={iconLink} alt="ícone de link externo" />
                   </strong>
-                  <div className="content indent-2 text-xs mb-2">
+                  <div className="content text-xs mb-2">
                     <p>{content.description}</p>
                     <p>Tools: {content.tools}</p>
                     <span>{

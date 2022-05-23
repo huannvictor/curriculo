@@ -13,7 +13,7 @@ export function Header() {
         <h1 className="text-lg sm:text-2xl font-bold text-brand-500">
           Huann Victor Brito de Almeida
         </h1>
-        <h2 className="text-base sm:text-lg text-brand-500">DESENVOLVEDOR WEB FRONT-END</h2>
+        <h2 className="text-base sm:text-lg text-brand-500">DESENVOLVEDOR WEB</h2>
         <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-xs">
           <p className="text-justify">
             Tenho 31 anos, resido em João Pessoa, estado da Paraíba. Estou disponível

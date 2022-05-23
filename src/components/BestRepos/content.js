@@ -19,7 +19,7 @@ export const reposContent = {
     title: "NLW Together Impulse by Rocketseat",
     mask:"huannvictor/letmeask",
     link:"https://github.com/huannvictor/letmeask",
-    description: "Desenvolvi este app na NLW edição Together. Esse app é um ambiente para Q&A onde usuários conectam com suas contas Google, fazem perguntas e tem suas repostas. Esses dados são armazenados Firebase e consumidos no app.",
+    description: "Desenvolvi este app na NLW edição Together. Esse app é um ambiente para Q&A onde usuários conectam com suas contas Google, fazem perguntas e tem suas repostas. Esses dados são armazenados no Firebase e retroalimenta o app.",
     tools:"Typescript - React - Node - Sass - Firebase com deploy",
     deploy:"https://letmeask-cfc63.web.app/"
   },

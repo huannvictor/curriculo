@@ -19,7 +19,7 @@ export function BestRepos() {
                       rel="noreferrer" 
                       target="_blank"
                     >
-                      {content.mask} 
+                      {content.mask}{" "}
                     </a>
                     <img className="inline w-[9px]" src={iconLink} alt="ícone de link externo" />
                   </strong>

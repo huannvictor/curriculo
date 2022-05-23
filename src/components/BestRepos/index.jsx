@@ -14,12 +14,30 @@ export function BestRepos() {
                 <h2 className="text-brand-500 font-bold">{content.title}</h2>
                 <div className="repoContent">
                   <strong className="hover:underline hover:underline-offset-4 hover:decoration-brand-500">
-                    <a href={content.link} rel="noreferrer" target="_blank">{content.mask} </a>
+                    <a 
+                      href={content.link} 
+                      rel="noreferrer" 
+                      target="_blank"
+                    >
+                      {content.mask} 
+                    </a>
                     <img className="inline w-[9px]" src={iconLink} alt="ícone de link externo" />
                   </strong>
-                  <div className="content text-justify indent-2 text-xs mb-2">
+                  <div className="content indent-2 text-xs mb-2">
                     <p>{content.description}</p>
                     <p>Tools: {content.tools}</p>
+                    <span>{
+                      content.deploy
+                        ? <a 
+                          href={content.deploy} 
+                          rel="noreferrer" 
+                          target="_blank" 
+                          className="hover:rounded hover:underline-offset-4 bg-brand-300 px-1 text-[10px]"
+                        >
+                          confira o deploy
+                        </a>
+                        : null
+                    }</span>
                   </div>
                 </div>
               </div>

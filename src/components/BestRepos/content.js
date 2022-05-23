@@ -1,4 +1,11 @@
 export const reposContent = {
+  portfolio:{
+    title: "Currículo",
+    mask:"huannvictor/portifolio",
+    link:"https://github.com/huannvictor/portifolio",
+    description: "Este é meu projeto pessoal com intuito de apresentar minhas habilidades e conhecimentos que tenho adquirido em cursos há pouco mais de um ano. Resolvi consolidar esses conhecimentos em algo prático que mostre como tenho avançado. Esse site estático simples é feito utilizando a estrutura de componentização do React, preocupação com a experiência do usuário e responsividade.",
+    tools:"React - Node - TailwindCss - Deploy no Vercel"
+  },
   nlwReturnImpulse:{
     title: "NLW Return Impulse by Rocketseat",
     mask:"huannvictor/nlwReturnImpulse",

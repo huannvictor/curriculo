@@ -11,7 +11,7 @@ export const studies = {
     entity:"ANHANGUERA PITÁGORAS AMPLI",
     place:"SÃO PAULO/PB",
     isVirtual: false,
-    link:"https://github.com/huannvictor/portifolio/blob/main/src/assets/DECLARA%C3%87%C3%83O%20HUANN.pdf",
+    link:"https://drive.google.com/file/d/1cjcEADNPj4I5Q-4wKnw3PKYZYNP2BL4v/view?usp=sharing",
     subject:"Durante os 3 anos de curso, estarei em contato com conteúdos como Algoritmos e Programação Estruturada, Arquitetura e Organização de Computadores, Análise e Modelagem de Sistemas, Engenharia de Requisitos e Arquitetura de Software para possibilitar a execução de tarefas com maior eficiência operacional."
   },
   managementBachelor:{
@@ -19,7 +19,7 @@ export const studies = {
     entity:"UNIESP",
     place:"CABEDELO/PB",
     isVirtual: false,
-    link:"https://github.com/huannvictor/portifolio/blob/main/src/assets/UNIESP.pdf",
+    link:"https://drive.google.com/file/d/1B7GyTKgtWsba_S9LWh5dIuR8hptHIioZ/view?usp=sharing",
     subject:"(Incompleto) aguardando defesa do TCC. \nFormação voltada para o mercado, desenvolvendo habilidades como visão de negócios, técnicas e comportamento de liderança, gerir os mais variados recursos de uma empresa como financeiro, humano e material."
   },
   fullstackJavascriptDeveloper:{

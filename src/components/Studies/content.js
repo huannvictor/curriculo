@@ -6,19 +6,27 @@
 // }
 
 export const studies = {
+  softwareEngineer:{
+    title:"BACHAREL EM ENGENHARIA DE SOFTWARE",
+    entity:"ANHANGUERA PITÁGORAS AMPLI",
+    place:"SÃO PAULO/PB",
+    isVirtual: false,
+    link:"https://github.com/huannvictor/portifolio/blob/main/src/assets/DECLARA%C3%87%C3%83O%20HUANN.pdf",
+    subject:"Durante os 3 anos de curso, estarei em contato com conteúdos como Algoritmos e Programação Estruturada, Arquitetura e Organização de Computadores, Análise e Modelagem de Sistemas, Engenharia de Requisitos e Arquitetura de Software para possibilitar a execução de tarefas com maior eficiência operacional."
+  },
   managementBachelor:{
     title:"BACHAREL EM ADMINISTRAÇÃO DE EMPRESAS",
     entity:"UNIESP",
     place:"CABEDELO/PB",
-    hasLink: false,
-    link:"",
-    subject:"(Incompleto) aguardando defesa do TCC"
+    isVirtual: false,
+    link:"https://github.com/huannvictor/portifolio/blob/main/src/assets/UNIESP.pdf",
+    subject:"(Incompleto) aguardando defesa do TCC. \nFormação voltada para o mercado, desenvolvendo habilidades como visão de negócios, técnicas e comportamento de liderança, gerir os mais variados recursos de uma empresa como financeiro, humano e material."
   },
   fullstackJavascriptDeveloper:{
     title:"PROGRAMADOR FULLSTACK JAVASCRIPT",
     entity:"ONEBITCODE",
     place:"onebitcode.com",
-    hasLink: true,
+    isVirtual: true,
     link:"https://programador.onebitcode.com",
     subject:[
       "Sass + Bootstrap",
@@ -32,7 +40,7 @@ export const studies = {
   discoverRocketseat:{
     title:"TRILHA DISCOVER ROCETSEAT",
     entity:"ROCKETSEAT",
-    hasLink: true,
+    isVirtual: true,
     place:"rocketseat.com",
     link:"https://www.rocketseat.com.br/discover",
     subject:[
@@ -51,7 +59,7 @@ export const studies = {
     title:"LEARN REACT",
     entity:"SCRIMBA",
     place:"scrimba.com",
-    hasLink: true,
+    isVirtual: true,
     link:"https://scrimba.com/learn/learnreact",
     subject:[
       "ES6 classes",

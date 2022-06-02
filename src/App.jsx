@@ -12,12 +12,12 @@ export function App() {
       <div className="flex flex-col gap-3 sm:grid-cols-2 sm:flex-row">
         <div className="left flex flex-col gap-3 text-xs sm:max-w-sm">
           <PersonalMotivation />
-          <KnowledgeApplication /> 
-          <BestRepos />
-        </div>
-        <div className="left flex flex-col gap-3 text-xs sm:max-w-sm">
           <LastXP /> 
           <Studies/>
+        </div>
+        <div className="left flex flex-col gap-3 text-xs sm:max-w-sm">
+          <KnowledgeApplication />
+          <BestRepos />
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ export function titleFunction(condition, entity, link, place) {
           {place}
         </a>
         <img
-          className="inline w-[9px]"
+          className="inline w-[9px] ml-1"
           src={iconLink}
           alt="ícone de link externo"
         />

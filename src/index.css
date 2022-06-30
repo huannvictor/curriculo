@@ -9,6 +9,7 @@
 }
 
 body {
+  padding-top: 2rem;
   font-family: "Baloo 2", sans-serif;
   @apply bg-stone-200
 }

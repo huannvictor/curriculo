@@ -1,5 +1,5 @@
-import iconLink from "../../assets/externalLink.svg";
-import certificateIcon from "../../assets/certificate.svg";
+import iconLink from "../../assets/externalLink.png";
+import certificateIcon from "../../assets/certificate.png";
 
 export function titleFunction(condition, entity, link, place) {
   if (condition === true) {

@@ -1,5 +1,5 @@
 import { reposContent } from "./content";
-import iconLink from "../../assets/externalLink.svg";
+import iconLink from "../../assets/externalLink.png";
 
 export function BestRepos() {
   return (

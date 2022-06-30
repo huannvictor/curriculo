@@ -23,7 +23,7 @@ export function BestRepos() {
                     alt="ícone de link externo"
                   />
                 </strong>
-                <div className="content text-xs mb-2">
+                <div className="content text-sm mb-2">
                   <p>{content.description}</p>
                   <p>Tools: {content.tools}</p>
                   <span>

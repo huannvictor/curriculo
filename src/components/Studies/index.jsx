@@ -21,7 +21,7 @@ export function Studies() {
                     content.place,
                   )}
                 </strong>
-                <div className="text-xs mb-2">
+                <div className="text-sm mb-2">
                   {subjectFunction(content.subject)}
                 </div>
               </div>

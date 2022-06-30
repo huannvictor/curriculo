@@ -16,8 +16,8 @@ export function LastXP() {
                   ? content.period
                   : `${content.company} - ${content.period}`}
               </strong>
-              <p className="text-xs mb-2">{content.description}</p>
-              <p className="text-xs mb-2">
+              <p className="text-sm mb-2">{content.description}</p>
+              <p className="text-sm mb-2">
                 <strong>Soft skills:</strong> {content.softSkills}
               </p>
             </div>

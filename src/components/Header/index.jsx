@@ -16,7 +16,7 @@ export function Header() {
         <h2 className="text-base sm:text-lg text-brand-500">
           DESENVOLVEDOR WEB
         </h2>
-        <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-xs">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-sm">
           <p className="text-justify">
             Tenho 31 anos, resido em João Pessoa, estado da Paraíba. Estou
             disponível para vagas remotas ou presenciais, também estou aberto a

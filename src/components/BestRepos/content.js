@@ -1,10 +1,19 @@
 export const reposContent = {
+  candyCrushReact: {
+    title: "Candy Crush in ReactJS by Ania Kubów",
+    mask: "huannvictor/candyCrushReact",
+    link: "https://github.com/huannvictor/candy-crush-react",
+    description:
+      "Esse projeto foi inspirado no jogo Candy Crush, feito pelo tutorial da Ania Kubow em seu canal no Youtube, no qual foi necessário desenvolver uma lógica onde uma combinação de 3 ou 4 elementos da mesma cor teriam que sumir da linha(↔) ou da coluna(↕) ao tempo que essa combinação marca pontos.",
+    tools: "React - Node - Vite ReactJS - Deploy no Vercel.com",
+    deploy: "https://candy-crush-react-byhuann.vercel.app/",
+  },
   portfolio: {
     title: "Currículo",
     mask: "huannvictor/resume",
     link: "https://github.com/huannvictor/resume",
     description:
-      "Este é meu projeto pessoal com intuito de apresentar minhas habilidades e conhecimentos que tenho adquirido em cursos há pouco mais de um ano. Resolvi consolidar esses conhecimentos em algo prático que mostre como tenho avançado. Esse site estático simples é feito utilizando a estrutura de componentização do React, preocupação com a experiência do usuário e responsividade.",
+      "Este é meu projeto pessoal com intuito de apresentar minhas habilidades e conhecimentos que tenho adquirido. Resolvi consolidá-los em algo prático que mostre como tenho avançado. Esse site estático simples é feito utilizando a estrutura de componentização do React, preocupação com a experiência do usuário e responsividade.",
     tools: "React - Node - TailwindCss - Deploy no Vercel.com",
     deploy: "https://resume-huannvictor.vercel.app/",
   },
@@ -34,23 +43,5 @@ export const reposContent = {
       "Neste projeto simples aprendi a fazer uma página consumindo dados de uma API. A estrutura foi com base no design site da Arbnb",
     tools: "React - Node- Deploy no Vercel.com",
     deploy: "https://scrimba-project-travel-journal.vercel.app/",
-  },
-  wordGame: {
-    title: "Word Game by Ania Kubów",
-    mask: "huannvictor/word-game",
-    link: "https://github.com/huannvictor/word-game",
-    description:
-      "Game feito seguindo o tutorial do canal Code with Ania Kubów onde consumi informações vinda de uma API dentro do marketplace RapidApi.com. Nesse word game simples podemos associar termos, contabilizando uma pontuação em até 10 níveis de dificuldade.",
-    tools: "React - Node",
-    deploy: "",
-  },
-  CryptoDashboard: {
-    title: "Crypto Dashboard by Ania Kubów",
-    mask: "huannvictor/crypto-dashboard",
-    link: "https://github.com/huannvictor/crypto-dashboard",
-    description:
-      "Dashboard feita seguindo o tutorial do canal Code with Ania Kubów onde consumi informações de duas APIs do marketplace RapidApi.com: Alpha Vantage (para converter as moedas com valores atualizados) e Crypto News (onde encontramos notícias do universo crypto). Nessa aplicação simples podemos converter valores e ver as principais notícias do universo de crypto moedas",
-    tools: "React - Node",
-    deploy: "",
   },
 };

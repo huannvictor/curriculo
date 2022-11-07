@@ -4,9 +4,8 @@
 //   place:"",
 //   subject:""
 // }
-
-export const studies = {
-  softwareEngineer: {
+/*
+softwareEngineer: {
     title: "BACHAREL EM ENGENHARIA DE SOFTWARE",
     entity: "ANHANGUERA PITÁGORAS AMPLI",
     place: "SÃO PAULO/SP",
@@ -14,7 +13,9 @@ export const studies = {
     link: "https://drive.google.com/file/d/1cjcEADNPj4I5Q-4wKnw3PKYZYNP2BL4v/view?usp=sharing",
     subject:
       "Durante os 3 anos de curso, estarei em contato com conteúdos como Algoritmos e Programação Estruturada, Arquitetura e Organização de Computadores, Análise e Modelagem de Sistemas, Engenharia de Requisitos e Arquitetura de Software para possibilitar a execução de tarefas com maior eficiência operacional.",
-  },
+  },*/
+
+export const studies = {
   managementBachelor: {
     title: "BACHAREL EM ADMINISTRAÇÃO DE EMPRESAS",
     entity: "UNIESP",

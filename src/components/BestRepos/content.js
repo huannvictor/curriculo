@@ -35,13 +35,4 @@ export const reposContent = {
     tools: "Typescript - React - Node - Sass - Firebase com deploy",
     deploy: "https://letmeask-cfc63.web.app/",
   },
-  scrimbaProjectTravelJournal: {
-    title: "React page by Scrimba",
-    mask: "huannvictor/scrimba-project-travel-journal",
-    link: "https://github.com/huannvictor/scrimba-project-travel-journal",
-    description:
-      "Neste projeto simples aprendi a fazer uma página consumindo dados de uma API. A estrutura foi com base no design site da Arbnb",
-    tools: "React - Node- Deploy no Vercel.com",
-    deploy: "https://scrimba-project-travel-journal.vercel.app/",
-  },
 };

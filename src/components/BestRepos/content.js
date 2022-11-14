@@ -1,13 +1,4 @@
 export const reposContent = {
-  candyCrushReact: {
-    title: "Candy Crush in ReactJS by Ania Kubów",
-    mask: "huannvictor/candyCrushReact",
-    link: "https://github.com/huannvictor/candy-crush-react",
-    description:
-      "Esse projeto foi inspirado no jogo Candy Crush, feito pelo tutorial da Ania Kubow em seu canal no Youtube, no qual foi necessário desenvolver uma lógica onde uma combinação de 3 ou 4 elementos da mesma cor teriam que sumir da linha(↔) ou da coluna(↕) ao tempo que essa combinação marca pontos.",
-    tools: "React - Node - Vite ReactJS - Deploy no Vercel.com",
-    deploy: "https://candy-crush-react-byhuann.vercel.app/",
-  },
   portfolio: {
     title: "Currículo",
     mask: "huannvictor/resume",
@@ -17,14 +8,23 @@ export const reposContent = {
     tools: "React - Node - TailwindCss - Deploy no Vercel.com",
     deploy: "https://resume-huannvictor.vercel.app/",
   },
-  nlwReturnImpulse: {
-    title: "NLW Return Impulse by RocketSeat",
-    mask: "huannvictor/nlwReturnImpulse",
-    link: "https://github.com/huannvictor/nlwReturnImpulse",
+  OneBitCodeCalcJs: {
+    title: "Calculator in JS by OneBitCode",
+    mask: "huannvictor/OneBitCode-CalcJs",
+    link: "https://github.com/huannvictor/OneBitCode-CalcJs",
     description:
-      "Nesta Next Level Week aprendi a fazer um botão para um usuário enviar um formulário de feedback, com texto e um print da tela no momento que está sendo enviado. Essa informação vai para um banco de dados e também por email. Além disso, aprendi como fazer deploy usando Vercel.",
-    tools: "Typescript - React - Node - TailwindCss - Deploy no Vercel.com",
-    deploy: "https://nlw-return-impulse-huannvictor.vercel.app/",
+      "Projeto desenvolvido no curso Programador Fullstack OneBitCode.com O projeto é uma calculadora simples usando Javascript Vanilla.",
+    tools: "JS - Node - Logic",
+    deploy: "https://huannvictor.github.io/OneBitCode-CalcJs/",
+  },
+  oneBitCodeTicTacToe: {
+    title: "Jogo da Velha in JS by OneBitCode",
+    mask: "huannvictor/oneBitCode-TicTacToe",
+    link: "https://github.com/huannvictor/oneBitCode-TicTacToe",
+    description:
+      "Projeto desenvolvido no curso Programador Fullstack OneBitCode.com O projeto é um Jogo da Velha simples usando Javascript Vanilla.",
+    tools: "JS - Node - Logic",
+    deploy: "https://huannvictor.github.io/oneBitCode-TicTacToe/",
   },
   nlwTogether: {
     title: "NLW Together Impulse by RocketSeat",

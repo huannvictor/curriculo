@@ -25,6 +25,26 @@ export const studies = {
     subject:
       "(Incompleto) aguardando defesa do TCC. \nFormação voltada para o mercado, desenvolvendo habilidades como visão de negócios, técnicas e comportamento de liderança, gerir os mais variados recursos de uma empresa como financeiro, humano e material.",
   },
+  angularEssentialTraining: {
+    title: "ANGULAR ESSENTIAL TRAINING",
+    entity: "LINKEDIN LEARNING",
+    place: "linkedin.com/learning",
+    isVirtual: true,
+    link: "https://www.linkedin.com/learning/",
+    subject: [
+        "What is Angular",
+        "Working with components",
+        "Binding events and properties",
+        "Getting data to components",
+        "Using directives and pipes",
+        "Creating Angular forms",
+        "Validating form data",
+        "How Angular does dependency injection",
+        "Making HTTP calls",
+        "Routing",
+        "Styling components",
+    ],
+  },
   fullstackJavascriptDeveloper: {
     title: "PROGRAMADOR FULLSTACK JAVASCRIPT",
     entity: "ONEBITCODE",

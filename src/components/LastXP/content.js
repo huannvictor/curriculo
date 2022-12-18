@@ -4,7 +4,7 @@ export const xpContent = {
     company:"Orgazinze Soft",
     period:"dezembro de 2022 - Atualmente",
     description:"Migrando telas para Angular utilizando a biblioteca de componentes PO-UI.",
-    softSkills:"Trabalho dentro da metodologia Ágil."
+    softSkills:"Trabalho dentro da metodologia Ágil, lidar com prazos"
   },
   SalesAssistant: {
     position:"ASSISTENTE DE VENDAS",

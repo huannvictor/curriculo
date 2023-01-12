@@ -1,10 +1,10 @@
 export const xpContent = {
   WebDeveloperJunior: {
-    position:"DESENVOLVEDOR WEB JUNIO",
+    position:"DESENVOLVEDOR WEB JUNIOR",
     company:"Orgazinze Soft",
     period:"dezembro de 2022 - Atualmente",
-    description:"Migrando telas para Angular utilizando a biblioteca de componentes PO-UI.",
-    softSkills:"Trabalho dentro da metodologia Ágil, lidar com prazos"
+    description:"Inicialmente migrando o front para Angular utilizando a biblioteca de componentes PO-UI, backend utilizando o FiveWin",
+    softSkills:"Trabalho dentro da metodologia Ágil, lidar com prazos dentro da demanda assíncrona"
   },
   SalesAssistant: {
     position:"ASSISTENTE DE VENDAS",

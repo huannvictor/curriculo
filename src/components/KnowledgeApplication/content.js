@@ -5,6 +5,7 @@ export const knowledgeList = [
   "GIT",
   "REACT.JS",
   "NODE.JS",
+  "ANGULAR",
   "LÓGICA DE PROGRAMAÇÃO",
   "ADOBE ILLUSTRATOR",
   "FIGMA",

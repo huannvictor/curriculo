@@ -5,7 +5,7 @@ export function titleFunction(condition, entity, link, place) {
   if (condition === true) {
     return (
       <span>
-        {entity}
+        em {entity}
         <a
           className="hover:underline hover:underline-offset-4 hover:decoration-brand-500 pl-1"
           href={link}

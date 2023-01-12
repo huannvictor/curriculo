@@ -1,12 +1,13 @@
 export const knowledgeList = [
-  "HTML 5",
-  "CSS 3",
   "JAVASCRIPT",
   "GIT",
   "REACT.JS",
   "NODE.JS",
   "ANGULAR",
   "LÓGICA DE PROGRAMAÇÃO",
+  "FIVEWIN",
+  "HTML 5",
+  "CSS 3",
   "ADOBE ILLUSTRATOR",
   "FIGMA",
   "TYPESCRIPT (BÁSICO)"

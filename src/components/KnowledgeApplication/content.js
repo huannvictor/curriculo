@@ -1,3 +1,5 @@
+export const knowledgeTitle = "CONHECIMENTOS ADQUIRIDOS";
+
 export const knowledgeList = [
   "JAVASCRIPT",
   "GIT",
@@ -10,5 +12,5 @@ export const knowledgeList = [
   "CSS 3",
   "ADOBE ILLUSTRATOR",
   "FIGMA",
-  "TYPESCRIPT (BÁSICO)"
-]
+  "TYPESCRIPT (BÁSICO)",
+];

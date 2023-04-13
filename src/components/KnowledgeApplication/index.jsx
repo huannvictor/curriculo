@@ -1,19 +1,22 @@
-import { knowledgeList } from "./content";
+import { knowledgeTitle, knowledgeList } from "./content";
+import { knowledgeListEn, knowledgeTitleEn } from "./contentEn";
 
-export function KnowledgeApplication() {
+export function KnowledgeApplication({ isPtbr }) {
   return (
     <div className="flex flex-col gap-1 bg-stone-100 rounded-xl py-7 px-9 shadow-md">
       <h1 className="text-lg text-brand-500 font-bold text-center">
-        CONHECIMENTOS ADQUIRIDOS
+        {isPtbr ? knowledgeTitle : knowledgeTitleEn}
       </h1>
       <ul className="content">
-        {knowledgeList.map(item => {
-          return (
-            <li key={Math.random()} className="list-disc">
-              {item}
-            </li>
-          );
-        })}
+        {Object.entries(isPtbr ? knowledgeList : knowledgeListEn).map(
+          ([key, item]) => {
+            return (
+              <li key={key} className="list-disc">
+                {item}
+              </li>
+            );
+          }
+        )}
       </ul>
     </div>
   );

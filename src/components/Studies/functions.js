@@ -1,11 +1,11 @@
 import iconLink from "../../assets/externalLink.png";
 import certificateIcon from "../../assets/certificate.png";
 
-export function titleFunction(condition, entity, link, place) {
-  if (condition === true) {
+export function titleFunction(isPtbr, isVirtual, entity, link, place) {
+  if (isVirtual === true) {
     return (
       <span>
-        em {entity}
+        {entity} {isPtbr ? "em" : "at"}
         <a
           className="hover:underline hover:underline-offset-4 hover:decoration-brand-500 pl-1"
           href={link}
@@ -21,7 +21,7 @@ export function titleFunction(condition, entity, link, place) {
         />
       </span>
     );
-  } else if (condition !== true) {
+  } else {
     return (
       <span>
         {entity}
@@ -49,7 +49,7 @@ export function subjectFunction(subject) {
   } else {
     return (
       <p>
-        {subject.map(item => {
+        {subject.map((item) => {
           return <li key={Math.random()}>{item}</li>;
         })}
       </p>

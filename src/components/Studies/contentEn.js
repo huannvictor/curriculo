@@ -4,17 +4,17 @@
 //   place:"",
 //   subject:""
 // }
-export const studiesTitle = "FORMAÇÃO ACADÊMICA & ÚLTIMOS CURSOS DA ÁREA";
+export const studiesTitleEn = "EDUCATION & LATEST COURSES IN THE FIELD";
 
-export const studies = {
+export const studiesEn = {
   managementBachelor: {
-    title: "BACHAREL EM ADMINISTRAÇÃO DE EMPRESAS",
+    title: "BACHELOR'S DEGREE IN BUSINESS ADMINISTRATION",
     entity: "UNIESP",
-    place: "CABEDELO/PB",
+    place: "CABEDELO/PB - Brazil",
     isVirtual: false,
     link: "https://drive.google.com/file/d/1B7GyTKgtWsba_S9LWh5dIuR8hptHIioZ/view?usp=sharing",
     subject:
-      "(Incompleto) aguardando defesa do TCC. \nFormação voltada para o mercado, desenvolvendo habilidades como visão de negócios, técnicas e comportamento de liderança, gerir os mais variados recursos de uma empresa como financeiro, humano e material.",
+      "(Incomplete) awaiting thesis defense. Education focused on the market, developing skills such as business vision, leadership techniques and behavior, managing various resources of a company such as financial, human and material.",
   },
   angularEssentialTraining: {
     title: "ANGULAR ESSENTIAL TRAINING",
@@ -37,7 +37,7 @@ export const studies = {
     ],
   },
   fullstackJavascriptDeveloper: {
-    title: "PROGRAMADOR FULLSTACK JAVASCRIPT",
+    title: "FULLSTACK JAVASCRIPT DEVELOPER",
     entity: "ONEBITCODE",
     place: "onebitcode.com",
     isVirtual: true,
@@ -52,21 +52,21 @@ export const studies = {
     ],
   },
   discoverRocketseat: {
-    title: "TRILHA DISCOVER ROCETSEAT",
+    title: "TRIDISCOVER ROCKETSEAT PATH",
     entity: "ROCKETSEAT",
     isVirtual: true,
     place: "rocketseat.com",
     link: "https://www.rocketseat.com.br/discover",
     subject: [
-      "Hardware, software, firmware e drivers",
-      "Propriedades e função de memória RAM, HD/SSD e mais",
-      "Pensamento computacional e lógico",
-      "Sistemas operacionais e configuração de ambiente",
-      "Back-end com JavaScript, Node.JS e SQL",
-      "Estrutura e gerenciamento de dados",
-      "Programação orientada a objetos",
-      "Front-end com foco em HTML, CSS, JavaScript e DOM",
-      "Terminal, HTTP a fundo",
+      "Hardware, software, firmware and drivers",
+      "Properties and function of RAM memory, HD/SSD, and more",
+      "Computational and logical thinking",
+      "Operating systems and environment configuration",
+      "Back-end with JavaScript, Node.JS and SQL",
+      "Structure and data management",
+      "Object-oriented programming",
+      "Front-end focused on HTML, CSS, JavaScript and DOM",
+      "Terminal, HTTP in depth",
     ],
   },
   learnReact: {

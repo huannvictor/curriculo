@@ -1,7 +1,9 @@
 import avatarImg from "../../assets/avatar.png";
 import { links } from "./links";
+import { personalIntro } from "./content";
+import { personalIntroEn } from "./contentEn";
 
-export function Header() {
+export function Header({ isPtbr }) {
   return (
     <header className="flex flex-col md:flex-row items-center justify-center gap-5 text-center">
       <img
@@ -13,14 +15,10 @@ export function Header() {
         <h1 className="text-lg sm:text-2xl font-bold text-brand-500">
           Huann Victor Brito de Almeida
         </h1>
-        <h2 className="text-base sm:text-lg text-brand-500">
-          DESENVOLVEDOR WEB
-        </h2>
+        <h2 className="text-base sm:text-lg text-brand-500">WEB DEV</h2>
         <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-sm">
           <p className="text-justify">
-            Tenho 31 anos, resido em João Pessoa, estado da Paraíba. Estou
-            disponível para vagas remotas ou presenciais, também estou aberto a
-            propostas para mudar de cidade.
+            {isPtbr ? personalIntro : personalIntroEn}
           </p>
           <ul className="flex float-left flex-col gap-0.5">
             {Object.entries(links).map(([key, item]) => {

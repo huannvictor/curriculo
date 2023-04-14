@@ -19,7 +19,7 @@ export function App() {
         className="fixed top-1 right-1 p-2 bg-brand-500 text-white rounded-lg hover:opacity-80"
         onClick={toggleLanguage}
       >
-        {isPtbr ? "Ver em Inglês" : "See in portuguese"}
+        {isPtbr ? "See in English" : "Ver em Português"}
       </button>
       <Header isPtbr={isPtbr} className="justify-center sm:max-w-lg" />
       <div className="flex flex-col gap-3 sm:grid-cols-2 sm:flex-row">

@@ -15,7 +15,7 @@ export function Header({ isPtbr }) {
         <h1 className="text-lg sm:text-2xl font-bold text-brand-500">
           Huann Victor Brito de Almeida
         </h1>
-        <h2 className="text-base sm:text-lg text-brand-500">WEB DEV</h2>
+        <h2 className="text-base sm:text-lg text-brand-500">DEV FULLSTACK JUNIOR</h2>
         <div className="flex flex-col sm:flex-row sm:items-center gap-6 text-sm">
           <p className="text-justify">
             {isPtbr ? personalIntro : personalIntroEn}

@@ -21,15 +21,18 @@ export function App() {
       >
         {isPtbr ? "See in English" : "Ver em Português"}
       </button>
+
       <Header isPtbr={isPtbr} className="justify-center sm:max-w-lg" />
+
       <div className="flex flex-col gap-3 sm:grid-cols-2 sm:flex-row">
         <div className="left flex flex-col gap-3 text-sm sm:max-w-lg">
-          <LastXP isPtbr={isPtbr} />
-          <Studies isPtbr={isPtbr} />
-        </div>
-        <div className="left flex flex-col gap-3 text-sm sm:max-w-lg">
           <PersonalMotivation isPtbr={isPtbr} />
+          <Studies isPtbr={isPtbr} />
           <KnowledgeApplication isPtbr={isPtbr} />
+        </div>
+
+        <div className="left flex flex-col gap-3 text-sm sm:max-w-lg">
+          <LastXP isPtbr={isPtbr} />
           <BestRepos isPtbr={isPtbr} />
         </div>
       </div>

@@ -1,6 +1,15 @@
 export const xpTitleEn = "LATEST EXPERIENCES";
 
 export const xpContentEn = {
+  FreelanceFullStackJr: {
+    position: "JUNIOR FULLSTACK DEVELOPER",
+    company: "",
+    period: "Dezembro 2022 - Present",
+    description:
+      "As a junior full-stack developer apprentice in career transition, I am learning fundamental skills in programming, web technologies, and frameworks to become a full-stack developer. I have been working on personal projects and collaborating on others to expand my skills and gain practical experience. I am dedicated to improving my skills and acquiring knowledge to become a professional web developer and contribute to the technology industry.",
+    softSkills:
+      "Motivation, Continuous learning, Teamwork, Communication, Adaptability and Resilience",
+  },
   SalesAssistant: {
     position: "SALES ASSISTANT",
     company: "CONSTRUIR PUBLISHER",

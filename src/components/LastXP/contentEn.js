@@ -1,6 +1,24 @@
 export const xpTitleEn = "LATEST EXPERIENCES";
 
 export const xpContentEn = {
+  TechLead: {
+    position: "TECH LEAD FRONTEND",
+    company: "Skill Labs",
+    period: "January 2024 - Present",
+    description:
+      "As Tech Lead Front-End at Skill Labs, an innovative startup dedicated to recruiting technology professionals for voluntary projects, I lead and guide a team of front-end developers in initiatives aimed at enhancing technical skills and fostering collaboration. My role includes project management, implementation of best front-end development practices, and the promotion of a collaborative environment to achieve our goals.",
+    softSkills:
+      "Motivation, Continuous learning, Teamwork, Communication, Adaptability and Resilience",
+  },
+  DevFrontEndJr: {
+    position: "FRONTEND DEVELOPER",
+    company: "Skill Labs",
+    period: "August 2023 - January 2024",
+    description:
+      "As a Junior Front-End Developer at Skill Labs, I dive into innovative projects, applying my passion for technology to craft engaging user experiences. Working collaboratively, I consistently seek to learn and enhance my skills, actively contributing to the development of intuitive and functional interfaces. At Skill Labs, we engage in voluntary projects that broaden our horizons and establish a solid foundation for my professional journey.",
+    softSkills:
+      "Motivation, Continuous learning, Teamwork, Communication, Adaptability and Resilience",
+  },
   FreelanceFullStackJr: {
     position: "JUNIOR FULLSTACK DEVELOPER",
     company: "",

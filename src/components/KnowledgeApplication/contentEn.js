@@ -1,16 +1,20 @@
 export const knowledgeTitleEn = "ACQUIRED SKILLS";
 
 export const knowledgeListEn = [
+  "LÓGICA DE PROGRAMAÇÃO",
   "JAVASCRIPT",
-  "GIT",
+  "TYPESCRIPT",
   "REACT.JS",
-  "NODE.JS",
+  "NEXT.JS",
   "ANGULAR",
-  "PROGRAMMING LOGIC",
-  "FIVEWIN",
-  "HTML 5",
-  "CSS 3",
-  "ADOBE ILLUSTRATOR",
+  "TAILWINDCSS",
   "FIGMA",
-  "TYPESCRIPT (BASIC)",
+  "ADOBE ILLUSTRATOR",
+  "NODE.JS",
+  "PRISMA",
+  "MONGO DB",
+  "POSTGRESQL",
+  "GIT",
+  "C#",
+  ".NET"
 ];

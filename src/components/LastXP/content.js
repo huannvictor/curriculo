@@ -6,9 +6,9 @@ export const xpContent = {
     company: "Skill Labs",
     period: "janeiro 2024 - atualmente",
     description:
-      "Enquanto Tech Lead Front-End na Skill Labs, uma inovadora startup dedicada a recrutar profissionais de tecnologia para participar de projetos voluntários, lidero e oriento uma equipe de desenvolvedores front-end em iniciativas que visam aprimorar habilidades técnicas e promover a colaboração. Meu papel envolve a gestão de projetos, a implementação de melhores práticas de desenvolvimento front-end e a promoção de um ambiente colaborativo para alcançar nossos objetivos.",
+      "Enquanto Tech Lead Front-End na Skill Labs, uma startup dedicada a recrutar profissionais de tecnologia para participar de projetos voluntários, lidero e oriento uma equipe de desenvolvedores front-end em iniciativas que visam aprimorar habilidades técnicas e promover a colaboração. Meu papel envolve a gestão de projetos, a implementação de melhores práticas de desenvolvimento front-end dentro do ecossistema Javascript e a promoção de um ambiente colaborativo para alcançar nossos objetivos.",
     softSkills:
-      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade e resiliência",
+      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade",
   },
   DevFrontEndJr: {
     position: "DESENVOLVEDOR FRONTEND",
@@ -17,7 +17,7 @@ export const xpContent = {
     description:
       "Como Desenvolvedor Front-End Júnior na Skill Labs, mergulho de cabeça em projetos inovadores, aplicando minha paixão pela tecnologia para criar experiências de usuário envolventes. Trabalhando em equipe, busco constantemente aprender e aprimorar minhas habilidades, contribuindo ativamente para o desenvolvimento de interfaces intuitivas e funcionais. Na Skill Labs participamos de projetos voluntários que ampliam nossos horizontes e consolidam uma base sólida para minha jornada profissional.",
     softSkills:
-      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade e resiliência",
+      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade",
   },
   FreelanceFullStackJr: {
     position: "DESENVOLVEDOR FULLSTACK JUNIOR",
@@ -26,7 +26,7 @@ export const xpContent = {
     description:
       "Como aprendiz de desenvolvedor fullstack júnior em transição de carreira, estou aprendendo habilidades fundamentais em programação, tecnologias web e frameworks para me tornar um desenvolvedor completo. Tenho trabalhado em projetos pessoais e colaborado em outros para adquirir experiência prática e estou empenhado em aprimorar minhas habilidades para contribuir para a indústria de tecnologia.",
     softSkills:
-      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade e resiliência",
+      "Motivação, aprendizagem contínua, trabalho em equipe, comunicação, adaptabilidade",
   },
   SalesAssistant: {
     position: "ASSISTENTE DE VENDAS",

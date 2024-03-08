@@ -9,5 +9,5 @@ if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
 }
 
 export const personalIntro = [
-  `Tenho ${age} anos, resido em João Pessoa, estado da Paraíba. Estou disponível para vagas remotas ou presenciais, também estou aberto a propostas para mudar de cidade.`,
+  `Tenho ${age} anos e sou da cidade de João Pessoa, Paraíba. Busco oportunidades tanto remotas quanto presenciais, inclusive estou aberto a mudanças de cidade. Especializado em ReactJS e NextJS, estou apto a me adaptar a diferentes frameworks JavaScript.`,
 ];

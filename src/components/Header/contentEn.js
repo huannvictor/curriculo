@@ -9,5 +9,5 @@ if (month < 0 || (month === 0 && today.getDate() < birthDate.getDate())) {
 }
 
 export const personalIntroEn = [
-  `I am ${age} years old, residing in João Pessoa, state of Paraíba. I am available for both remote and in-person job opportunities and I am also open to proposals to relocate.`,
+  `I'm ${age} years old and based in João Pessoa, Paraíba. I'm seeking both remote and on-site opportunities, and I'm open to relocating. Specializing in ReactJS and NextJS, I'm adaptable to different JavaScript frameworks.`,
 ];

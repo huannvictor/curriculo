@@ -1,10 +1,10 @@
+import { useState } from "react";
+import { BestRepos } from "./components/BestRepos";
 import { Header } from "./components/Header";
 import { KnowledgeApplication } from "./components/KnowledgeApplication";
 import { LastXP } from "./components/LastXP";
 import { PersonalMotivation } from "./components/PersonalMotivation";
 import { Studies } from "./components/Studies";
-import { BestRepos } from "./components/BestRepos";
-import { useState } from "react";
 
 export function App() {
   const [isPtbr, setIsPtBr] = useState(true);
@@ -14,7 +14,7 @@ export function App() {
   }
 
   return (
-    <div className="App flex flex-col items-center justify-center gap-4 p-4">
+    <div className="App flex flex-col items-center justify-center gap-4 px-52">
       <button
         className="fixed top-1 right-1 p-2 bg-brand-500 text-white rounded-lg hover:opacity-80"
         onClick={toggleLanguage}

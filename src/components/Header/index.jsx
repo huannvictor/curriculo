@@ -1,7 +1,7 @@
 import avatarImg from "../../assets/avatar.png";
-import { links } from "./links";
 import { personalIntro } from "./content";
 import { personalIntroEn } from "./contentEn";
+import { links } from "./links";
 
 export function Header({ isPtbr }) {
   return (
@@ -11,7 +11,7 @@ export function Header({ isPtbr }) {
         alt="imagem do perfil"
         className="shadow-md rounded-full bg-brand-500 sm:w-48"
       />
-      <div className=" flex flex-col justify-center items-center gap-1 max-w-xl bg-stone-100 rounded-xl py-7 px-9 shadow-md">
+      <div className=" flex flex-col justify-center items-center gap-1 bg-stone-100 rounded-xl py-7 px-9 shadow-md">
         <h1 className="text-lg sm:text-2xl font-bold text-brand-500">
           Huann Victor Brito de Almeida
         </h1>
